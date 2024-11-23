@@ -1,4 +1,4 @@
-# Postal for PHP
+# Samotpravil for PHP
 
 This library is forked by kostikpenzin/samotpravil, it helps you send e-mails through [Samotpravil](https://samotpravil.ru) in PHP 8.0 and above.
 
