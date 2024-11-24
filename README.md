@@ -1,5 +1,12 @@
 # Samotpravil for PHP
 
+[![Latest Stable Version](https://poser.pugx.org/kostikpenzin/samotpravil/v/stable)](https://packagist.org/packages/kostikpenzin/samotpravil)
+[![Total Downloads](https://poser.pugx.org/kostikpenzin/samotpravil/downloads)](https://packagist.org/packages/kostikpenzin/samotpravil)
+[![Latest Unstable Version](https://poser.pugx.org/kostikpenzin/samotpravil/v/unstable)](https://packagist.org/packages/kostikpenzin/samotpravil)
+[![License](https://poser.pugx.org/kostikpenzin/samotpravil/license)](https://packagist.org/packages/kostikpenzin/samotpravil)
+[![Monthly Downloads](https://poser.pugx.org/kostikpenzin/samotpravil/d/monthly)](https://packagist.org/packages/kostikpenzin/samotpravil)
+
+
 This library is forked by kostikpenzin/samotpravil, it helps you send e-mails through [Samotpravil](https://samotpravil.ru) in PHP 8.0 and above.
 
 [Official site Samotpravil](https://samotpravil.ru/)
