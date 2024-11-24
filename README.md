@@ -1,4 +1,4 @@
-# Samotpravil for PHP
+# A library in Php for sending emails through the service samotpravil.ru
 
 [![Latest Stable Version](https://poser.pugx.org/kostikpenzin/samotpravil/v/stable)](https://packagist.org/packages/kostikpenzin/samotpravil)
 [![Total Downloads](https://poser.pugx.org/kostikpenzin/samotpravil/downloads)](https://packagist.org/packages/kostikpenzin/samotpravil)
