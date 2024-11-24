@@ -9,7 +9,7 @@
 
 This library is forked by kostikpenzin/samotpravil, it helps you send e-mails through [Samotpravil](https://samotpravil.ru) in PHP 8.0 and above.
 
-[Official site Samotpravil](https://samotpravil.ru/)
+Official site: [Samotpravil](https://samotpravil.ru/)
 
 Full documentation REST API: [documentation.samotpravil.ru](https://documentation.samotpravil.ru/)
 
