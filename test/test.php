@@ -7,13 +7,12 @@ use kostikpenzin\samotpravil\Client;
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 $secretKey = 'xxxx';
-
 $client = new Client($secretKey);
 
 // Send email
 $res = $client->sendEmail(
     'penzin85@gmail.com',
-    'Hi, {{ params.user }}', 
+    'Hi, Penzin Konstantin. How are you? 😊', 
     $body,
     'info@samotpravil.ru',
     [
@@ -52,6 +51,21 @@ var_dump($res);
 $res = $client->stopListRemove('penzin85@gmail.com', "samotpravil.ru");
 var_dump($res);
 
+// Get domains 
+$res = $client->getDomains();
+var_dump($res);
+
+// Add domain 
+$res = $client->domainAdd('samotpravil.ru');
+var_dump($res);
+
+// Remove domain 
+$res = $client->domainRemove('samotpravil.ru');
+var_dump($res);
+
+// Get domain verification
+$res = $client->domainCheckVerification('samotpravil.ru');
+var_dump($res);
 
 
 
