@@ -2,6 +2,8 @@
 
 This library is forked by kostikpenzin/samotpravil, it helps you send e-mails through [Samotpravil](https://samotpravil.ru) in PHP 8.0 and above.
 
+full documentation: [documentation.samotpravil.ru](https://documentation.samotpravil.ru/)
+
 ## Installation
 
 Install the library using [Composer](https://getcomposer.org/):
@@ -45,19 +47,22 @@ var_dump($res);
 
 ### getStatistics: Gets statistics of sent emails between specified dates.
 ``` php
-$res = $client->getStatistics('2025-01-01', '2025-01-31', ['limit' => 100, 'cursor_next' => 0]);
+$res = $client->getStatistics('2025-01-01', '2025-01-31', 
+    ['limit' => 100, 'cursor_next' => 0]);
 var_dump($res);
 ```
 
 ### getNonDeliveryByDate: Retrieves non-delivery report for emails between specified dates.
 ``` php
-$res = $client->getNonDeliveryByDate('2025-01-01', '2025-01-31', ['limit' => 100, 'cursor_next' => 0]);
+$res = $client->getNonDeliveryByDate('2025-01-01', '2025-01-31', 
+    ['limit' => 100, 'cursor_next' => 0]);
 var_dump($res);
 ```
 
 ### getFblReportByDate: Retrieves FBL report for emails between specified dates.
 ``` php
-$res = $client->getFblReportByDate('2025-01-01', '2025-01-31', ['limit' => 100, 'cursor_next' => 0]);
+$res = $client->getFblReportByDate('2025-01-01', '2025-01-31', 
+    ['limit' => 100, 'cursor_next' => 0]);
 var_dump($res);
 ```
 
